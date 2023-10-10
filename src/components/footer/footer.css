@@ -1,0 +1,7 @@
+.footer{
+    height: 3rem;
+    width: 100vw;
+    /* max-width: 65rem; */
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+}

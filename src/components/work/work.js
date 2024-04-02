@@ -17,7 +17,7 @@ const Work = () => {
         <div className='workImgs'>
             <div className='workImg'><a href=''><img src={PORTFOLIO1} alt='workpic' className='workpic'/><span className='workImgTitle'>Analog-Clock</span></a></div>
             <div className='workImg'><a href=''><img src={PORTFOLIO2} alt='workpic' className='workpic'/><span className='workImgTitle'>Analog-Clock</span></a></div>
-            <div className='workImg'><a href=''><img src={PORTFOLIO3} alt='workpic' className='workpic'/><span className='workImgTitle'>Analog-Clock</span></a></div>
+            <div className='workImg'><a href='https://website-myntra-clone.netlify.app/'><img src={PORTFOLIO3} alt='workpic' className='workpic'/><span className='workImgTitle'>Myntra Clone</span></a></div>
             <div className='workImg'><a href='https://zingy-blancmange-37c9ff.netlify.app'><img src={PORTFOLIO6} alt='workpic' className='workpic'/><span className='workImgTitle'>Analog-Clock</span></a></div>
         </div>
         <button className='workBtn'>See More</button>

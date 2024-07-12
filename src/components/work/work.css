@@ -31,24 +31,26 @@
 }
 
 .workpic{
-    /* object-fit: cover; */
+    object-fit: cover;
     height: 15rem;
     margin: 0.5rem;
     padding: 0.5rem;
+    width: 14rem;
     border-radius: 0.9rem;
+
 }
 
 .workImg{
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    display: flex;
     margin: 0.5rem;
-    max-width: 14rem;
+    width: 14rem;
     height: 19rem;
     text-align: center;
     font-family: arial;
     transition: 0.3s;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(85, 85, 86);
     border-radius: 0.9rem;
-  }
+}
 
 .workImgTitle{
     text-decoration: none;

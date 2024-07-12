@@ -1,8 +1,8 @@
 import React from "react";
 import "./intro.css";
 import bg from "../assets/me2.png";
-import { Link } from "react-scroll";
 import btnImg from "../assets/hireme.png";
+import ABHINAVPANDEYresume from "../assets/ABHINAVPANDEYresume.pdf";
 const Intro = () => {
   return (
     <section id="intro">
@@ -20,14 +20,16 @@ const Intro = () => {
           </p>
         </span>
         <div className="hire-res">
-          <Link>
+          {/* <Link> */}
+          <a href="https://www.linkedin.com/in/abhinavpandey29">
             <button className="btn">
               <img src={btnImg} alt="btnImg" className="btnImg" />
               Hire Me
             </button>
-          </Link>
+            </a>
+          {/* </Link> */}
           <div>
-          <a href="https://drive.google.com/file/d/1KWul9gHeiZpktfSADH8BHvUYL1SYWkMH/view?usp=drivesdk" className="res">
+          <a href={ABHINAVPANDEYresume} className="res">
               
             <button className="btn " >Resume
             </button>
